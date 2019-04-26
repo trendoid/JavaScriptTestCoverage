@@ -1,52 +1,78 @@
 {
-    "name": "my-app",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "react-scripts": "3.0.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "coverage": "react-scripts test --coverage",
-        "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "coveralls": "^3.0.3",
-        "react-test-renderer": "^16.8.6"
-    },
-    "jest": {
-        "collectCoverageFrom": [
-            "**/*.{js,jsx}",
-            "!**/index.js",
-            "!**/serviceWorker.js",
-            "!**/build/**",
-            "!**/node_modules/**",
-            "!**/vendor/**"
-        ],
-        "coverageReporters": [
-            "json",
-            "lcov",
-            "html"
-        ]
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "coverage": "react-scripts test --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-links": "^5.0.10",
+    "@storybook/addon-storyshots": "^5.0.10",
+    "@storybook/addons": "^5.0.10",
+    "@storybook/react": "^5.0.10",
+    "babel-loader": "^8.0.5",
+    "coveralls": "^3.0.3",
+    "react-test-renderer": "^16.8.6",
+    "require-context.macro": "^1.0.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/index.js",
+      "!**/serviceWorker.js",
+      "!**/build/**",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      },
+      "./src/components/": {
+        "branches": 40,
+        "statements": 40
+      },
+      "./src/stories/": {
+        "branches": 40,
+        "statements": 40
+      }
     }
+  }
 }
