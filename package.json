@@ -10,7 +10,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "coverage": "react-scripts test --coverage",
+        "coverage": "react-scripts test --coverage --no-cache",
         "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -44,7 +44,7 @@
             "!**/vendor/**"
         ],
         "coverageReporters": [
-            "json",
+            "text",
             "lcov",
             "html"
         ]
