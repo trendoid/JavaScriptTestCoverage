@@ -1,4 +1,4 @@
- [![Build Status](https://travis-ci.org/trendoid/JavaScriptTestCoverage.svg?branch=master)](https://travis-ci.org/trendoid/JavaScriptTestCoverage)
+[![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/trendoid/JavaScriptTestCoverage.svg?branch=master)](https://travis-ci.org/trendoid/JavaScriptTestCoverage)
  
 # JavaScript Test Coverage 
 ## a cozy blanket on a rainy day
