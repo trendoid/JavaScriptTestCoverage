@@ -1,4 +1,6 @@
-# JavaScript Test Coverage
+ [![Build Status](https://travis-ci.org/trendoid/JavaScriptTestCoverage.svg?branch=master)](https://travis-ci.org/trendoid/JavaScriptTestCoverage)
+ 
+# JavaScript Test Coverage 
 ## a cozy blanket on a rainy day
 
 ### Testing Frameworks
