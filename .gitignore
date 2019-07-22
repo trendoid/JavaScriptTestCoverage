@@ -25,3 +25,4 @@ yarn-error.log*
 /.vs/JavaScriptTestCoverage/config/applicationhost.config
 *.suo
 /.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
