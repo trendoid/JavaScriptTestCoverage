@@ -20,8 +20,9 @@ test_script:
   # run tests
   - npm test
 
-# Don't actually build.
-build: false
-
 build_script:
   - npm run-script build
+
+artifacts:
+  # pushing entire folder as a zip archive
+  - path: build
