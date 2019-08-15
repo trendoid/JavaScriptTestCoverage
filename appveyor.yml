@@ -1,9 +1,9 @@
 # Test against the latest version of this Node.js version
 environment:
-  nodejs_version: "12"
+  nodejs_version: "8.16.0"
 
 platform:
-  - x64
+  - x86
 
 # Install scripts. (runs after repo cloning)
 install:
