@@ -18,7 +18,7 @@ test_script:
   - node --version
   - npm --version
   # run tests
-  - ps: ($env:CI = "true") -and (npm test)
+  - npm test
 
 # Don't actually build.
 build: off
