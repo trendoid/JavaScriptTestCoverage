@@ -1,4 +1,4 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)   [![Build Status](https://travis-ci.org/trendoid/JavaScriptTestCoverage.svg?branch=master)](https://travis-ci.org/trendoid/JavaScriptTestCoverage) [![Coverage Status](https://coveralls.io/repos/github/trendoid/JavaScriptTestCoverage/badge.svg?branch=master)](https://coveralls.io/github/trendoid/JavaScriptTestCoverage?branch=master) 
+[![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)   [![Build Status](https://travis-ci.org/trendoid/JavaScriptTestCoverage.svg?branch=master)](https://travis-ci.org/trendoid/JavaScriptTestCoverage) [![Coverage Status](https://coveralls.io/repos/github/trendoid/JavaScriptTestCoverage/badge.svg?branch=master)](https://coveralls.io/github/trendoid/JavaScriptTestCoverage?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/j7tgt294yom9bu1d?svg=true)](https://ci.appveyor.com/project/trendoid/javascripttestcoverage)
  
 # JavaScript Test Coverage 
 ## a cozy blanket on a rainy day
